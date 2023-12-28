@@ -6,12 +6,12 @@ from discord.ext import commands
 from discord import Intents
 
 # Configurações do bot
-TOKEN = 'MTE4OTkxNDUxNDcyMDgyOTUyMg.G9aMGf.y82-j0l_DlKaD_vvh4FdqeTROOa7XWx8c3x7HU'
-ZABBIX_API_TOKEN = '13390491572f75bd6747cf739226c1b7651fac57865d81da912557f6c78f4ba5'
-ZABBIX_API_BASE_URL = 'http://192.168.8.8/zabbix/api_jsonrpc.php'
+TOKEN = '<SEU_TOKEN_DO_DISCORD>'
+ZABBIX_API_TOKEN = '<SEU_TOKEN_DO_ZABBIX>'
+ZABBIX_API_BASE_URL = '<SUA_URL_DO_ZABBIX>'
 ZABBIX_API_URL = f'{ZABBIX_API_BASE_URL}?{ZABBIX_API_TOKEN}'
-ZABBIX_USERNAME = 'zabbix'
-ZABBIX_PASSWORD = '1234'
+ZABBIX_USERNAME = '<SEU_NOME_DE_USUARIO_ZABBIX>'
+ZABBIX_PASSWORD = '<SUA_SENHA_ZABBIX>'
 
 intents = Intents.default()
 intents.messages = True
