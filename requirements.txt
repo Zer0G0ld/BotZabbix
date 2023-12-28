@@ -1,0 +1,4 @@
+discord.py==1.7.3
+requests==2.26.0
+easysnmp==0.2.5
+
